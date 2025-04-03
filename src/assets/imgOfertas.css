@@ -1,0 +1,61 @@
+.oferta-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px; 
+  height: 450px; 
+  overflow: hidden;
+  padding: 20px;
+  margin-left: 220px;
+}
+
+.oferta-item {
+  flex: 1; 
+  height: 90%; 
+  overflow: hidden;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+  filter: brightness(50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.oferta-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  display: block;
+}
+
+/* 🔥 Expande la imagen cuando está activa */
+.oferta-item.active {
+  flex: 2; /* La imagen activa ocupa más espacio */
+  filter: brightness(100%);
+}
+
+/* Atenúa las imágenes no seleccionadas */
+.oferta-item.inactive {
+  flex: 0.8; 
+  filter: brightness(30%);
+}
+
+
+.ofertas h2 {
+  text-align: center;
+  color: #fff;
+  font-family: 'Lucida Bright', serif;
+  font-size: 40px;
+  margin-bottom: 20px;
+  margin-left: 240px;
+}
+
+.ofertas {
+  padding: 40px 0;
+}
+
+
+
+  
+
+  

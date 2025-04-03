@@ -1,0 +1,61 @@
+.sobre-nosotros {
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .contenido {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1400px;
+    margin: auto;
+    gap: 50px;
+  }
+  
+  .imagen {
+    width: 55%;
+    border-radius: 10px;
+  }
+  
+  .texto {
+    text-align: left;
+  
+    font-family: "Lucida Bright";
+
+  }
+  
+  .texto h2 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    margin-left: 205px;
+    
+  }
+  
+  .texto p {
+    font-size: 24px;
+    line-height: 1.6;
+    text-align: justify;
+    margin-bottom: 10px;
+    padding-top: 40px;
+    width: 147%; 
+    margin-left: -20px;
+  }
+  
+  @media (max-width: 768px) {
+    .contenido {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .imagen {
+      width: 90%;
+    }
+  
+    .texto {
+      width: 90%;
+      text-align: center;
+    }
+  }
+  

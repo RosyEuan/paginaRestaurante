@@ -1,0 +1,63 @@
+.fondo {
+    background: url('imagenes/fondo.png') lightgray 0px 0px / 100% 100% no-repeat;
+    flex-shrink: 0;
+    width: 118.2%;
+    height: 780px;
+    
+}
+body {
+    background-color: #100A0A;
+    margin: 0;
+}
+.nav{
+    --bs-nav-link-color: #ffffff;
+}
+.navbar {
+    background-color: #261414;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    z-index: 1000;
+    color: #FFFFFF; 
+    width: 100%;
+    flex-shrink: 0;
+}
+.nav-item{
+    font-family: 'Lucida Bright';
+    font-size: 24px;
+    color: #FFFFFF; 
+}
+.logo {
+    width: 160px;
+    height: 72px;
+    padding: 0.5em;
+}
+
+.Bienvenida {
+    width: 704px;
+    height: 64px;
+    font-family: 'Playball', cursive;
+    color: #F3EBEB;
+    text-align: center;
+    font-size: 48px;
+    font-style: normal;
+    line-height: normal;
+    margin: 0;
+    margin-left: 712px;
+    width: 100%;
+    padding-top: 190px;
+    
+}
+.descripcion {
+    width: 500px;
+    height: 200px;
+    color: #EFEFEF;
+    text-align: justify;
+    font-family: "Linden Hill", serif;
+    font-size: 32px;
+    font-style: normal;
+    line-height: normal;
+    margin: 0;
+    margin-top: 110px;
+    margin-left: 860px;
+}

@@ -1,0 +1,129 @@
+.reservacion-container {
+    display: flex;
+    border-radius: 10px;
+    color: white;
+    
+  }
+  
+  .imagen-container {
+    flex: 1;
+
+  }
+  
+  .imagen-reserva {
+    width: 120%;
+    height: 82%;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .formulario-container {
+    flex: 1;
+    padding: 20px;
+    font-family: "Lucida Bright";
+    font-size: 24px;
+    margin-top: -20px;
+    margin-left: 170px;
+    
+  }
+
+input[type="date"]::-webkit-calendar-picker-indicator,
+input[type="time"]::-webkit-calendar-picker-indicator {
+    filter: invert(1); /* Invierte el color para que se vea oscuro */
+}
+  
+  .titulo-formulario {
+    font-size: 30apx;
+    margin-bottom: 20px;
+    font-family: "Lucida Bright";
+    font-size: 38px;
+  }
+  
+  .form-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    align-items: center;
+  }
+  
+  .form-group {
+    flex: 1;
+    margin-right: 10px;
+    min-width: 120px;
+  }
+  
+  input, select {
+    width: 100%; 
+}
+  .form-group:last-child {
+    margin-right: 0;
+    
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  text-align: justify;
+  }  
+  input,
+  select,
+  textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #161111;
+    border-radius: 5px;
+    background: #ffffff;
+    color: #000;
+  font-size: 20px;
+
+    
+  }
+ 
+input::placeholder,
+textarea::placeholder {
+    color: black;
+    opacity: 1; 
+}
+  
+  textarea {
+    height: 100px;
+    resize: none;
+  }
+  
+  .boton-reservar {
+    display: block;
+    padding: 10px;
+    background: #100A0A;
+    border-color: #FFF;
+    border-radius: 5px;
+    color: white;
+    font-size: 38px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 20px;
+    margin-left: 212px;
+  }
+  
+  .boton-reservar:hover {
+    background-color: #1f1616df;
+  }
+
+  .reservacion h2{
+    font-family: "Lucida Bright";
+    font-size: 40px;
+    color: white;
+    text-align: left;
+    padding-left: 5px;
+    padding-top: 40px;
+
+  }
+ .descripcion-reserva{
+  font-family: "Linden Hill";
+  font-size: 24px;
+  color: white;
+  text-align: justify;
+ } 
+ .descripcion-reserva p {
+  font-size: 24px;
+  white-space: nowrap;
+}

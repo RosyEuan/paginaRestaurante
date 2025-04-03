@@ -1,0 +1,77 @@
+.eventos {
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+    position: relative;
+   
+  }
+  
+  .eventos::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+  }
+  
+  .evento-header {
+    position: relative;
+    z-index: 2;
+    font-weight: bold;
+    
+  }
+  
+ 
+.titulo-evento{
+  font-family: "Lucida Bright";
+  font-size: 40px;
+  font-family: "Lucida Bright";
+  font-size: 40px;
+  position: absolute;
+  top: 255px; 
+  left: 43.5%;
+  z-index: 2;
+  text-align: center;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+.evento-contenido {
+  max-width: 1000px;
+  margin: 0 auto; 
+  
+}
+.evento-contenido p {
+  width: 100%;
+  text-align: justify;
+  margin-bottom: 15px; 
+  line-height: 1.7; 
+  font-size: 32px;
+  font-family: "Linden Hill";
+ margin-left: 125px;
+ width: 100%;
+ margin-top: 30px;
+
+}
+.tradicional{
+  font-size: 32px;
+  font-family: "Lucida Bright";
+  margin-left: 260px;
+  margin-top: 30px;
+
+}
+
+.imagen-evento img {
+  display: block;
+  margin: 0 auto;
+  transform: translateX(-50px); 
+}
+
+
+
+.imagen-evento{
+  margin-right: 50px;
+
+}
+  
