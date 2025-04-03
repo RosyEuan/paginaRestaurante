@@ -1,4 +1,3 @@
-import React from 'react'
 import Restaurante from '../Restaurante'
 
 export const Navbar = () => {

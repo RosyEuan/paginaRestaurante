@@ -1,6 +1,5 @@
 import { useState } from "react";
 import "./assets/PreguntasFrecuentes.css";
-import { Plus, Minus } from "lucide-react"; //iconos
 
 
 const PreguntasFrecuentes = () => {
