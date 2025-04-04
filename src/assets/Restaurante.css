@@ -1,5 +1,5 @@
 .fondo {
-    background: url('imagenes/fondo.png') lightgray 0px 0px / 100% 100% no-repeat;
+    background: url('imagenes/fondo.webp') lightgray 0px 0px / 100% 100% no-repeat;
     flex-shrink: 0;
     width: 118.2%;
     height: 780px;

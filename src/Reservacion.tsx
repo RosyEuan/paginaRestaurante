@@ -9,7 +9,7 @@ const Reservacion = () => {
       <div className="descripcion-reserva">
         <p>Esperamos tu visita con gran ilusión, no dudes en reservar.</p>
       </div>
-        <img src="imagenes/reservas.png" alt="Mesa reservada" className="imagen-reserva" title="Reservacion"/>
+        <img src="imagenes/reservas.webp" alt="Mesa reservada" className="imagen-reserva" title="Reservacion"/>
       </div>
       <div className="formulario-container">
         <h3 className="titulo-formulario">Llena el formulario</h3>

@@ -35,7 +35,7 @@ const PreguntasFrecuentes = () => {
     return (
       <div className="contenedor-preguntas">
          <div className="imagen">
-        <img className="jaguar" src="imagenes/jaguar.png" alt="imagen de jaguar" title="preguntasFrecuentes"></img>
+        <img className="jaguar" src="imagenes/jaguar.webp" alt="imagen de jaguar" title="preguntasFrecuentes"></img>
         <h2 className="titulo"><u>Preguntas Frecuentes</u></h2>
         </div>
         <div className="preguntas">

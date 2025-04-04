@@ -3,12 +3,12 @@ import "./assets/galeriaimg.css";
 
 const galeria = () => {
   const images = [
-    "/imagenes/gale1.png",
-    "/imagenes/gale2.png",
-    "/imagenes/gale3.png",
-    "/imagenes/gale4.png",
-    "/imagenes/gale5.png",
-    "/imagenes/gale6.png",
+    "/imagenes/gale1.webp",
+    "/imagenes/gale2.webp",
+    "/imagenes/gale3.webp",
+    "/imagenes/gale4.webp",
+    "/imagenes/gale5.webp",
+    "/imagenes/gale6.webp",
   ];
 
   return (

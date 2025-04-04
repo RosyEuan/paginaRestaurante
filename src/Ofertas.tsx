@@ -2,9 +2,9 @@ import { useState } from "react";
 import "./assets/imgOfertas.css"; //estilos de la galería
 
 const images = [
-  { id: 1, src: "imagenes/promoo1.png", alt: "Oferta 1" },
-  { id: 2, src: "imagenes/promoo2.png", alt: "Oferta 2" },
-  { id: 3, src: "imagenes/promoo3.png", alt: "Oferta 3" },
+  { id: 1, src: "imagenes/promoo1.webp", alt: "Oferta 1" },
+  { id: 2, src: "imagenes/promoo2.webp", alt: "Oferta 2" },
+  { id: 3, src: "imagenes/promoo3.webp", alt: "Oferta 3" },
 ];
 
 const Ofertas: React.FC = () => {

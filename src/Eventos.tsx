@@ -8,7 +8,7 @@ const Eventos: React.FC = () => {
             <h2 className="titulo-evento"><u>Eventos y Avisos</u></h2>
         </div>
         <div className="imagen-evento">
-        <img className="Evento" src="imagenes/eventoos.png" alt="Logo Ko'ten Janal" title="eventos" />
+        <img className="Evento" src="imagenes/eventoos.webp" alt="Logo Ko'ten Janal" title="eventos" />
         </div>
       
        <div className="tradicional">

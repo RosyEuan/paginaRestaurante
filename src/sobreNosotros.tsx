@@ -5,7 +5,7 @@ const SobreNosotros = () => {
     <section className="sobre-nosotros">
       <div className="contenido">
         <img
-          src="imagenes/nosotros.png" 
+          src="imagenes/nosotros.webp" 
           alt="Comida compartida"
           className="imagen"
           title="sobreNosotros"
