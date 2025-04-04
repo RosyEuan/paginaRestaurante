@@ -15,7 +15,7 @@ const Navbar: React.FC = () => {
   return (
     <nav className="navbar">
       <div className="container-md">
-        <img className="logo" src="imagenes/logo_2.png" alt="Logo Ko'ten Janal" title="logo" />
+        <img className="logo" src="imagenes/logo_2.webp" alt="Logo Ko'ten Janal" title="logo" />
         <ul className="nav">
           <li className="nav-item">
             <a className="nav-link" href="#">Inicio</a>
