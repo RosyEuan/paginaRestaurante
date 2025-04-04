@@ -7,6 +7,7 @@
   overflow: hidden;
   padding: 20px;
   margin-left: 220px;
+  margin-top:100px;
 }
 
 .oferta-item {
@@ -42,12 +43,13 @@
 
 
 .ofertas h2 {
+  margin-top: 360px;
   text-align: center;
   color: #fff;
   font-family: 'Lucida Bright', serif;
   font-size: 40px;
   margin-bottom: 20px;
-  margin-left: 240px;
+  margin-left: 240px;
 }
 
 .ofertas {

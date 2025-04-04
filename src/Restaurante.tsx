@@ -37,7 +37,8 @@ const Navbar: React.FC = () => {
 
 const Inicio: React.FC = () => {
   return (
-    <div className="fondo">
+    <div>
+      <img className="fondo" src="imagenes/fondo.webp" alt="Logo Ko'ten Janal"/>
       <section className="Inicio col-6">
         <h1 className="Bienvenida">Bienvenido a Ko'ten Janal</h1>
         <p className="descripcion">
